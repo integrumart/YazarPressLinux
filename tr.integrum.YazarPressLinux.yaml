@@ -4,16 +4,20 @@ runtime-version: '45'
 sdk: org.gnome.Sdk
 command: yazarpresslinux
 modules:
+  - name: python3-requests
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-cache-dir --prefix=/app requests
   - name: yazarpresslinux
     buildsystem: simple
     build-commands:
       - install -D yazarpresslinux.py /app/bin/yazarpresslinux
+      - install -D tr.integrum.YazarPressLinux.desktop /app/share/applications/tr.integrum.YazarPressLinux.desktop
+      - install -D tr.integrum.YazarPressLinux.metainfo.xml /app/share/metainfo/tr.integrum.YazarPressLinux.metainfo.xml
     sources:
       - type: file
         path: yazarpresslinux.py
-finish-args:
-  - --share=network
-  - --share=ipc
-  - --socket=fallback-x11
-  - --socket=wayland
-  - --device=dri
+      - type: file
+        path: tr.integrum.YazarPressLinux.desktop
+      - type: file
+        path: tr.integrum.YazarPressLinux.metainfo.xml
