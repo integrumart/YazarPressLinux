@@ -1,2 +1,2 @@
-# YazarPressLinux
-Modern, accessible, and fast WordPress management tool for Linux. Built with the Integrum architecture for writers.
+YazarPressLinux, Linux kullanıcılarının WordPress sitelerini masaüstünden kolayca yönetmesi için tasarlanmıştır. Erişilebilirlik önceliğimizdir; mimar ve müteahhit el ele vererek sınırları genişletiyoruz.
+
