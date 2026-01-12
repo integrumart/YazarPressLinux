@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>tr.integrum.YazarPressLinux</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>YazarPressLinux</name>
+  <summary>Linux için hızlı WordPress yönetim aracı</summary>
+  <description>
+    <p>
+      YazarPressLinux, WordPress sitelerinizi doğrudan masaüstünden yönetmenizi sağlayan, 
+      erişilebilirlik odaklı bir araçtır.
+    </p>
+  </description>
+  <url type="homepage">https://github.com/integrumart/YazarPressLinux</url>
+  <developer_name>Integrum Art</developer_name>
+  <content_rating type="oars-1.1" />
+</component>
